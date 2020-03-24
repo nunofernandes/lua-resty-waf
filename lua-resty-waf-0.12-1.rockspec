@@ -1,7 +1,7 @@
 package = "lua-resty-waf"
-version = "0.12"
+version = "0.12-1"
 source = {
-   url = "gitrec+https://github.com/icodus/lua-resty-waf",
+   url = "gitrec+https://github.com/nunofernandes/lua-resty-waf",
 }
 description = {
    summary = "High-performance WAF built on the OpenResty stack",
@@ -15,5 +15,5 @@ dependencies = {
 }
 build = {
    type = "make",
-   install_target = "install-hard",
+   install_target = "install",
 }
